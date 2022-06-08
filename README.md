@@ -1,2 +1,2 @@
-# euler_method_motor_simulation
+# Euler method motor simulation
 motor simulation using euler method
