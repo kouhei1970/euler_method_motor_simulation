@@ -1,2 +1,3 @@
-# Euler method motor simulation
-motor simulation using euler method
+# Motor simulation
+モータのシミュレーションをオイラー法とルンゲ・クッタ法でやってみました。
+
