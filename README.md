@@ -15,7 +15,7 @@ $$
 
 ### プロペラのトルク負荷
 $$
-T_L = C_q \omega^3
+T_L = C_q \omega^2
 $$
 
 
@@ -84,7 +84,7 @@ double i_dot(double i, double t, double *value)
 }
 
 //Equation of motion
-//TL = Cq omega^3
+//TL = Cq omega^2
 //Jm domega/dt + Dm omega + TL = Km i
 //omega:angular velocity
 //t:time
