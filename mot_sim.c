@@ -32,7 +32,7 @@ double i_dot(double i, double t, double *value)
 }
 
 //Equation of motion
-//TL = Cq omega^3
+//TL = Cq omega^2
 //Jm domega/dt + Dm omega + TL = Km i
 //omega:angular velocity
 //t:time
@@ -40,7 +40,7 @@ double i_dot(double i, double t, double *value)
 double omega_dot(double omega, double t, double *value)
 {
   double i=value[0];
-  double TL=Cq * omega * omega * omega;
+  double TL=Cq * omega * omega;
   return (Km * i - Dm * omega - TL)/Jm;
 }
 
